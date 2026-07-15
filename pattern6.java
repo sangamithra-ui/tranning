@@ -1,0 +1,23 @@
+package patterns;
+
+public class pattern6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  for (int i = 9; i >= 1; i--) {
+
+	            // Print leading spaces
+	            for (int j = 1; j <= 9 - i; j++) {
+	                System.out.print(" ");
+	            }
+
+	            // Print numbers
+	            for (int j = 1; j <= i; j++) {
+	                System.out.print(i + " ");
+	            }
+
+	            System.out.println();
+		  }
+	}
+}
+
